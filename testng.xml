@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="centralvista.Init"/>
+      <class name="centralvista.Login"/>
+      <class name="centralvista.LokSabhalEmployeeRegistration"/>
+      <class name="centralvista.RajyaSabhaMemberRegistration"/>
+      <class name="centralvista.RajyaSabhaEmployeeRegistration"/>
+      <class name="centralvista.RajyaSabhaMemberRegistration_old"/>
+      <class name="centralvista.LoksabhaMemberRegistration"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
